@@ -1,6 +1,10 @@
+
+
 import 'bootstrap/dist/css/bootstrap.css';
 import { Inter } from 'next/font/google';
-import Nav from '../components/Nav';
+import Nav from '@/components/Nav';
+
+// import { useEffect } from 'react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -9,12 +13,19 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  // useEffect(() => {
+  //   typeof document !== undefined
+  //     ? require("bootstrap/dist/js/bootstrap")
+  //     : null;
+  // }, []);
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav/>
-        {children}
+        <main>
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   )

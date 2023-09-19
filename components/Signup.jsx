@@ -1,11 +1,9 @@
 "use client"
-import React, { useRef } from 'react';
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React, { useRef, useEffect } from 'react';
+import * as bootstrap from 'bootstrap/dist/js/bootstrap';
 
 
 const Signup = ({ show, setShow ,setSignInshow}) => {
-
-
     const modalRef = useRef()
     const showModal = () => {
         const modalEle = modalRef.current
@@ -15,6 +13,8 @@ const Signup = ({ show, setShow ,setSignInshow}) => {
         })
         bsModal.show()
     }
+
+
     if (show) {
         setSignInshow(false);
         showModal();
@@ -33,8 +33,8 @@ const Signup = ({ show, setShow ,setSignInshow}) => {
 
     return (
         <div className="addEmployee ">
-
-            <div className="modal fade " ref={modalRef} tabIndex="-1" >
+           
+            <div className="modal fade " ref={modalRef}  tabIndex="-1" >
                
                 <div className="modal-dialog  d-flex " style={{ minWidth: "50%" ,marginTop:"4rem"}}>
                     <div className="modal-content " >

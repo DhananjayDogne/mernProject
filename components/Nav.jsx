@@ -1,7 +1,8 @@
 'use client'
 import { useState } from "react";
-import Signup from "./Signup";
-import SignIn from "./SignIn";
+
+import Signup from "@/components/Signup";
+import SignIn from "@/components/SignIn";
 
 const Nav = () => {
     const [show, setShow] = useState(false);

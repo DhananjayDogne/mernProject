@@ -1,10 +1,10 @@
 "use client"
-import React, { useRef } from 'react';
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React, { useRef, useEffect } from 'react';
+import * as bootstrap from 'bootstrap/dist/js/bootstrap';
 
 
 const SignIn = ({ signInShow, setSignInshow, setShow }) => {
-
+   
 
     const modalRef = useRef()
     const showModal = () => {

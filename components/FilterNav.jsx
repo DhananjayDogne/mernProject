@@ -1,6 +1,8 @@
 'use client';
+
 import {AiOutlineUsergroupAdd} from 'react-icons/ai'
 import { useState } from "react";
+
 const FilterNav = () => {
     const [isOpen, setIsOpen] = useState(false);
 

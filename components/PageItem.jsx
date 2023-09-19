@@ -6,7 +6,7 @@ const PageItem = () => {
     return (
         <>
             <div className="card text-start m-auto mb-1"  >
-                <img src="https://s3-alpha-sig.figma.com/img/8f0b/5f52/59515bfc8d2d4ff8928be097376153e9?Expires=1694390400&Signature=bLojQqf9tAn~PFapGnD1FUhLmHCTm~E~hWFmWvSWt~awqr8aDmWmvR-fZP3cpZkKu3y3pmlkRuH6fjYR4Go2KbEphmKI9a936InoVwbNoWUkGLNfYu4YbNlFJbeh1DD-VBHWbEtEspWUT4I1UNCE006LlwqlfW0uQzrR11WZoJsnlszCqH9tHNGvyqIFlEoHHgXfl-iJnoaeh-wjWCPyJL7mI5xWN46blHyQHm3cCBCWUqkMzENjQxDVMeWRRkASw-WJ4WJ1EcexnLNHyUfh3DVCckuP1BLv0DHPgyrmD~ghmPLojQ4F8nwhP0lG8NvKg3XVFW0YxZDt-LnPTF9CXw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" className="card-img-top" style={{ height: "15rem" }} alt="..." />
+                <img src="https://images.unsplash.com/photo-1573126617899-41f1dffb196c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWlufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" className="card-img-top" style={{ height: "15rem" }} alt="..." />
                 <div className="card-body ">
                     <header className="fw-bold fs-6 py-1">✍️ Article</header>
                     <div className="d-flex">
@@ -19,7 +19,7 @@ const PageItem = () => {
 
                     </p>
                     <div className=' d-flex '>
-                        <img className='rounded-circle ' style={{ width: "30px" }} src="https://s3-alpha-sig.figma.com/img/d809/8d9d/f42d73f4b2b7835b4c918c4edcf10f64?Expires=1694390400&Signature=CfH2E3gUi4MkVsAH5OwL6njwo0TjgiHfSClqpl1z7Kr4oK9nLm4Cu5X~vBL4kuHB7yHKOC~x7V1Pa0Fn1Yt38XzN7hqBeFvp9cldNu6ie4E8hvP3-WtMAzU7i4lxzEhZAjDlzZIPFktWyChiUDwNX~T3r7DKoNlp~EZ4qVCraZoCVEm6zSd2PfMczDrtr-vjH83e0XoVyGQvNY5tNkPyeGsCzTdKSW8wzNIcDZAdPMBQ~moYpFPTTtgqqZsaWIFw2gU1Tpmg9R8kmEasRUDPP4AR3BXOBw4yS7Cbk4TTr92bLlS8Icqb9H29Xj7kh1dSQsVxooPIoMkrOdPzk0CgQw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                        <img className='rounded-circle ' style={{ width: "30px" }} src="https://plus.unsplash.com/premium_photo-1667667720425-6972aff75f6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
                         <h6 className='my-auto ms-1'>Sarthak Kamra</h6>
                         <div className='ms-auto fs-6' style={{ fontSize: "10px" }}>
                             <MdOutlineVisibility />
@@ -30,7 +30,7 @@ const PageItem = () => {
                 </div>
             </div>
             <div className="card text-start m-auto mb-1"  >
-                <img src="https://s3-alpha-sig.figma.com/img/8f0b/5f52/59515bfc8d2d4ff8928be097376153e9?Expires=1694390400&Signature=bLojQqf9tAn~PFapGnD1FUhLmHCTm~E~hWFmWvSWt~awqr8aDmWmvR-fZP3cpZkKu3y3pmlkRuH6fjYR4Go2KbEphmKI9a936InoVwbNoWUkGLNfYu4YbNlFJbeh1DD-VBHWbEtEspWUT4I1UNCE006LlwqlfW0uQzrR11WZoJsnlszCqH9tHNGvyqIFlEoHHgXfl-iJnoaeh-wjWCPyJL7mI5xWN46blHyQHm3cCBCWUqkMzENjQxDVMeWRRkASw-WJ4WJ1EcexnLNHyUfh3DVCckuP1BLv0DHPgyrmD~ghmPLojQ4F8nwhP0lG8NvKg3XVFW0YxZDt-LnPTF9CXw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" className="card-img-top" style={{ height: "15rem" }} alt="..." />
+                <img src="https://images.unsplash.com/photo-1533757751343-978d1ebc2d6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNodXR0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" className="card-img-top" style={{ height: "15rem" }} alt="..." />
                 <div className="card-body ">
                     <header className="fw-bold fs-6 py-1">✍️ Article</header>
                     <div className="d-flex">
@@ -43,7 +43,7 @@ const PageItem = () => {
 
                     </p>
                     <div className=' d-flex '>
-                        <img className='rounded-circle ' style={{ width: "30px" }} src="https://s3-alpha-sig.figma.com/img/d809/8d9d/f42d73f4b2b7835b4c918c4edcf10f64?Expires=1694390400&Signature=CfH2E3gUi4MkVsAH5OwL6njwo0TjgiHfSClqpl1z7Kr4oK9nLm4Cu5X~vBL4kuHB7yHKOC~x7V1Pa0Fn1Yt38XzN7hqBeFvp9cldNu6ie4E8hvP3-WtMAzU7i4lxzEhZAjDlzZIPFktWyChiUDwNX~T3r7DKoNlp~EZ4qVCraZoCVEm6zSd2PfMczDrtr-vjH83e0XoVyGQvNY5tNkPyeGsCzTdKSW8wzNIcDZAdPMBQ~moYpFPTTtgqqZsaWIFw2gU1Tpmg9R8kmEasRUDPP4AR3BXOBw4yS7Cbk4TTr92bLlS8Icqb9H29Xj7kh1dSQsVxooPIoMkrOdPzk0CgQw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                        <img className='rounded-circle ' style={{ width: "30px" }} src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
                         <h6 className='my-auto ms-1'>Sarthak Kamra</h6>
                         <div className='ms-auto fs-6' style={{ fontSize: "10px" }}>
                             <MdOutlineVisibility />
