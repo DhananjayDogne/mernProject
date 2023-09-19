@@ -1,36 +1,36 @@
 "use client"
 import React, { useRef, useEffect } from 'react';
-import * as bootstrap from 'bootstrap/dist/js/bootstrap';
+// import * as bootstrap from 'bootstrap/dist/js/bootstrap';
 
 
 const SignIn = ({ signInShow, setSignInshow, setShow }) => {
    
 
     const modalRef = useRef()
-    const showModal = () => {
-        const modalEle = modalRef.current
-        const bsModal = new bootstrap.Modal(modalEle, {
-            backdrop: 'static',
-            keyboard: false
-        })
-        bsModal.show()
-    }
-    if (signInShow) {
-        setShow(false);
-        showModal();
+    // const showModal = () => {
+    //     const modalEle = modalRef.current
+    //     const bsModal = new bootstrap.Modal(modalEle, {
+    //         backdrop: 'static',
+    //         keyboard: false
+    //     })
+    //     bsModal.show()
+    // }
+    // if (signInShow) {
+    //     setShow(false);
+    //     showModal();
 
-    }
-    const hideModal =  () => {
+    // }
+    // const hideModal =  () => {
 
-        const modalEle = modalRef.current
-        const bsModal = bootstrap.Modal.getInstance(modalEle)
-        bsModal.hide()
-        setSignInshow(false);
-    }
-    const moveToSigup =  () => {
-         hideModal();
-        setShow(true);
-    }
+    //     const modalEle = modalRef.current
+    //     const bsModal = bootstrap.Modal.getInstance(modalEle)
+    //     bsModal.hide()
+    //     setSignInshow(false);
+    // }
+    // const moveToSigup =  () => {
+    //      hideModal();
+    //     setShow(true);
+    // }
 
     return (
         <div className="addEmployee ">
@@ -45,8 +45,8 @@ const SignIn = ({ signInShow, setSignInshow, setShow }) => {
                         <div className="modal-header">
 
                             <h5 className="modal-title" id="staticBackdropLabel">Sign In</h5>
-                            <p role="button" onClick={moveToSigup}> Don't have an account yet?  <span className="text-primary"> Create new for free!</span></p>
-                            <button type="button" className="btn-close position-absolute rounded-pill" style={{ top: "-31px", right: "-8px", backgroundColor: "#FFFFFF" }} onClick={hideModal} aria-label="Close"></button>
+                            <p role="button" /*onClick={moveToSigup}*/> Don't have an account yet?  <span className="text-primary"> Create new for free!</span></p>
+                            <button type="button" className="btn-close position-absolute rounded-pill" style={{ top: "-31px", right: "-8px", backgroundColor: "#FFFFFF" }} /*onClick={hideModal}*/ aria-label="Close"></button>
                         </div>
                         <div className="modal-body d-flex ">
                             <div style={{ width: "60%" }}>
